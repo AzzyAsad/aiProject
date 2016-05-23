@@ -4,54 +4,56 @@ import java.util.ArrayList;
 public class Main {
 	public static void main(String asad[]) {
 		
-//		Graph g = new Graph(5);
-//		g.addVertex("Xi");
-//		g.addVertex("Ch");
-//		g.addVertex("Be");
-//		g.addVertex("Hg");
-//		g.addVertex("Ha");
+		//making second commit in this i will uncomment g=5 and comment g=10
+		
+		Graph g = new Graph(5);
+		g.addVertex("Xi");
+		g.addVertex("Ch");
+		g.addVertex("Be");
+		g.addVertex("Hg");
+		g.addVertex("Ha");
+		
+		g.addEdge("Xi", "Ch", 606);
+		g.addEdge("Xi", "Hg", 1150);
+		g.addEdge("Xi", "Be", 914);
+		g.addEdge("Ch", "Hg", 1539);
+		g.addEdge("Ch", "Be", 1518);
+		g.addEdge("Be", "Hg", 1134);
+		g.addEdge("Be", "Ha", 1061);
+		g.addEdge("Ha", "Hg", 1822);
+		
+		g.setStartLocation("Hg");
+		
+//		Graph g = new Graph(10);
+//		g.addVertex("A");
+//		g.addVertex("B");
+//		g.addVertex("C");
+//		g.addVertex("D");
+//		g.addVertex("E");
+//		g.addVertex("F");
+//		g.addVertex("G");
+//		g.addVertex("H");
+//		g.addVertex("I");
+//		g.addVertex("J");
 //		
-//		g.addEdge("Xi", "Ch", 606);
-//		g.addEdge("Xi", "Hg", 1150);
-//		g.addEdge("Xi", "Be", 914);
-//		g.addEdge("Ch", "Hg", 1539);
-//		g.addEdge("Ch", "Be", 1518);
-//		g.addEdge("Be", "Hg", 1134);
-//		g.addEdge("Be", "Ha", 1061);
-//		g.addEdge("Ha", "Hg", 1822);
+//		g.addEdge("A", "B", 4);
+//		g.addEdge("A", "C", 3);
+//		g.addEdge("A", "G", 4);
+//		g.addEdge("B", "D", 2);
+//		g.addEdge("B", "E", 3);
+//		g.addEdge("C", "E", 1);
+//		g.addEdge("C", "G", 5);
+//		g.addEdge("D", "E", 3);
+//		g.addEdge("D", "J", 10);
+//		g.addEdge("E", "F", 3);
+//		g.addEdge("E", "I", 3);
+//		g.addEdge("F", "G", 2);
+//		g.addEdge("F", "H", 5);
+//		g.addEdge("G", "H", 6);
+//		g.addEdge("H", "I", 1);
+//		g.addEdge("I", "J", 1);
 //		
-//		g.setStartLocation("Hg");
-		
-		Graph g = new Graph(10);
-		g.addVertex("A");
-		g.addVertex("B");
-		g.addVertex("C");
-		g.addVertex("D");
-		g.addVertex("E");
-		g.addVertex("F");
-		g.addVertex("G");
-		g.addVertex("H");
-		g.addVertex("I");
-		g.addVertex("J");
-		
-		g.addEdge("A", "B", 4);
-		g.addEdge("A", "C", 3);
-		g.addEdge("A", "G", 4);
-		g.addEdge("B", "D", 2);
-		g.addEdge("B", "E", 3);
-		g.addEdge("C", "E", 1);
-		g.addEdge("C", "G", 5);
-		g.addEdge("D", "E", 3);
-		g.addEdge("D", "J", 10);
-		g.addEdge("E", "F", 3);
-		g.addEdge("E", "I", 3);
-		g.addEdge("F", "G", 2);
-		g.addEdge("F", "H", 5);
-		g.addEdge("G", "H", 6);
-		g.addEdge("H", "I", 1);
-		g.addEdge("I", "J", 1);
-		
-		g.setStartLocation("A");
+//		g.setStartLocation("A");
 	}
 }
 
